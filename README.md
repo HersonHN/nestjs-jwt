@@ -1,7 +1,7 @@
 
 ## Description
 
-This is a template from [nestjs](nestjs) implementing JWT, this can be extended to quickly bootstrap another apps.
+This is a template from [nestjs](https://www.nestjs.com/) implementing JWT, this can be extended to quickly bootstrap another apps.
 
 ## Before Installing
 
@@ -28,7 +28,3 @@ $ JWT_SECRET_KEY=XXXXXXX npm run start:dev
 # production mode
 $ JWT_SECRET_KEY=XXXXXXX npm run start:prod
 ```
-
-
-
-[nestjs]: https://www.nestjs.com/

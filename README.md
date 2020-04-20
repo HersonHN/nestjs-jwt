@@ -3,9 +3,11 @@
 
 This is a template from [nestjs](nestjs) implementing JWT, this can be extended to quickly bootstrap another apps.
 
-## Pre-requisites
+## Before Installing
 
-For the JWT authentication, a secret key needs to be provided. The app reads the environmental variables for the key, you can set the variable as `JWT_SECRET_KEY`, this configuration is made at `src/auth/constants.ts`.
+For the JWT authentication, a secret key needs to be provided. The app reads the environmental variables for the key, you can set the variable as `JWT_SECRET_KEY`.
+
+This configuration is made at `src/auth/constants.ts`.
 
 
 ## Installation

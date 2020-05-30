@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { User } from './user.interface';
 
 @Injectable()
-export class UsersService {
+export class UserService {
   private readonly users: User[];
 
   constructor() {
@@ -12,11 +12,6 @@ export class UsersService {
         username: 'test',
         password: 'test',
       },
-      {
-        userId: 2,
-        username: 'other',
-        password: 'lol',
-      }
     ];
   }
 
